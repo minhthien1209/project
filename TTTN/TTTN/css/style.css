@@ -1,0 +1,405 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+header{
+  position: fixed;
+  width: 100%;
+  height: 53px;
+  background: #3c6382;
+  z-index: 100;
+  display: block;
+}
+header .dropdown button:focus{
+  border: none;
+  outline: 0;
+}
+header .login{
+  padding-right: 25px;
+  float: right;
+  line-height: 45px;
+}
+header .dropdown a,.dropdown form{
+  text-align: center;
+
+}
+.dropdown-menu{
+  padding: 0;
+  box-shadow: 0.2rem 0.2rem 0.5rem #2c3e50;
+  border-top: none;
+  background: #ecf0f1;
+  border-radius: 5px;
+}
+.dropdown form input,.dropdown-menu a{
+  background: none;
+  width: 100%;
+  padding: 10px 0;
+  border: none;
+}
+.dropdown form input:hover,.dropdown a:hover{
+  background: #2c3e50;
+  color: white;
+}
+header .logo a{
+  font-weight: 500;
+  font-size: 35px;
+  color: #ffffff;
+  padding: 0px 65px;
+}
+header .logo a:hover{
+  text-decoration: none;
+}
+header .container-fluid{
+  margin: 0;
+  padding: 0;
+}
+header .login img{
+  padding: 5px 5px; 
+  border-radius: 50%;
+  text-align: center;
+}
+header .login span{
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 500;
+}
+.main{
+  display: inline-block;
+  padding-top: 50px;
+  width: 100%;
+  float: left;
+  height: 1000px;
+}
+.left{
+  display: block;
+  height: 100%;
+  background: #f4f6f7;
+  position: fixed;
+  float: left;
+  width: 20%;
+}
+.left .nav{
+  display: block;
+  position: relative;
+  width: 100%;
+}
+.left ul li{
+  position: relative;
+  display: block;
+}
+.left ul li a{
+  line-height: 50px;
+  padding: 0 5%;
+  position: relative;
+  display: block;
+  color: #2c3e50;
+  text-transform: uppercase;
+  font-weight: 650;
+  font-size: 15px;
+}
+.left li a:hover{
+  background: #95a5a6;
+  color: white;
+  text-decoration: none;
+}
+.left i{
+  font-size: 20px;
+  padding: 0 10px 0;
+}
+.right{
+  padding: 2% 0;
+  float: right;
+  width: 80%;
+  display: block;
+  position: relative;
+}
+.left ul li{
+  display: block;
+}
+/* Bán Hàng */
+.banhang-top{
+  display: block;
+  position: relative;
+  width: 100%;
+  padding: 0 2%;
+}
+.banhang-top h3{
+  float: left;
+}
+.banhang-top a{
+  float: right;
+  background: #2980b9;
+  color: white;
+  padding: 7px 15px;
+  border-radius: 7px;
+}
+.banhang-top a i{
+  padding-right: 3px;
+}
+
+.btn{
+  padding: 0;
+  color: black;
+  background: none;
+  border: none;
+}
+.form-add{
+  position: fixed;
+  height: 100%;
+  display: block;
+}
+.form-add button{
+  color: black;
+  padding: 10px 15px;
+  border-radius: 10px;
+}
+.form-add .donhang{
+ padding: 10% 0; 
+}
+.form-add h3 i{
+  color: #3498db;
+}
+.form-add h3{
+  border-bottom: 1px solid black;
+  padding-bottom: 10px;
+}
+.form-add input{
+  padding: 3px 10px;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+.form-add label{
+  padding-right: 5px;
+}
+.addhang{
+  background: #bdc3c7;
+}
+.form-add .fa-undo{
+  padding-right: 3px;
+}
+.back{
+  background: #95a5a6;
+}
+.btn-primary:hover{
+  background: none;
+  color: black;
+  border: none;
+}
+.table input{
+  width: 100%;
+  border: none;
+  background: none;
+}
+/*Bảng CSDL*/
+.table{
+  margin-top: 20px;
+}
+#myTable a .fas{
+  margin: 5px;
+}
+.fa-trash-alt{
+  color: #e74c3c;
+}
+.top{
+  display: block;
+  width: 100%;
+}
+button{
+  background: none;
+  padding: 0;
+  border: none;
+}
+/*Phần trên bảng CSDL*/
+.top-sp input{
+  float: left;
+  width: 30%;
+}
+.top-sp a{
+  padding: 5px 10px;
+  background: #ecf0f1;
+  float: right;
+  border-radius: 5px;
+  color: black;
+}
+/*pop-up thêm các thứ*/
+#ndung h4{
+  text-align: center;
+}
+#themhoadon{
+  padding: 15px 10px;
+  background:#2980b9;
+  color:white;
+  border-radius: 10px;
+}
+a:hover{
+  text-decoration: none;
+}
+#ndung input, select{
+  padding: 2px 7px;
+  margin: 7px 0;
+  border-radius: 7px;
+  border: 1px solid black;
+}
+#ndung label{
+  padding-right: 2%;
+}
+#ndung table{
+  height: 350px;
+  width: 100%;
+  display: block;
+  overflow: auto;
+}
+#ndung table td{
+  width: 100%;
+  padding: 5px 20px;
+}
+#ndung .btn{
+  margin-left: 35%;
+  text-align: center;
+  padding: 7px 10px;
+  background: #ecf0f1;
+  color: black;
+}
+#ndung .btn:hover{
+  background: #bdc3c7;
+}
+.box{
+  float: left;
+}
+.box table{
+  float: left;
+}
+.canhbao{
+  color: red;
+}
+.item{
+  border: 1px solid black;
+  display: block;
+  width: 100%;
+  z-index: 1;
+}
+/**/
+.box-form{
+  background: white;
+  height: 100%;
+  position: fixed;
+  background: linear-gradient(110deg,#e74c3c 60%, #e74c3c 40%, #f1c40f 100%);
+  width: 100%;
+}
+.box-logi{
+  position: absolute;
+  width: 350px;
+  background: #2c3e50;
+  display: block;
+  box-shadow: 0 1rem 2rem ;
+  padding: 10px 20px;
+  left: 40%;
+  top: 30%;
+  border-radius: 10px;
+}
+.box-logi i{
+  font-size: 20px;
+  padding: 0 5px;
+  color: #007bff;
+}
+.box-logi h2{
+  padding-bottom: 5px;
+  border-bottom: 1px solid rgba(0,0,0,.15);
+  color: #bdc3c7;
+}
+.box-logi input[type='password'],.box-logi input[type='text']{
+  font-size: 20px;
+}
+.box-logi input[type="submit"]{
+  background: #2ecc71;
+  border: none;
+  margin: 0 25%;
+  font-size: 20px;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+/*Profile*/
+.profile{
+  position: fixed;
+  padding: 2% 5%;
+}
+.profile .profile-mg img{
+  border-radius: 50%;
+}
+.profile-text i{
+  font-size: 25px;
+}
+.profile-text .input-group input{
+  border: none;
+  border-radius: 1%;
+  width: auto;
+  padding-left: 2%;
+}
+.uptaikhoan {
+  margin: 10px;
+}
+.profile .uptaikhoan button,.uptaikhoan a{
+  padding: 10px 15px;
+  background: #1abc9c;
+  color: black;
+  border-radius: 5px;
+}
+.profile .input-group span{
+  background: none;
+  border: none;
+}
+/*Thống Kê*/
+.item-box{
+  border: 1px solid #2c3e50;
+  box-shadow: .1rem .1rem .1rem #95a5a6;
+}
+.item-box i{
+  font-size: 70px;
+}
+.item-box{
+  padding: 5% 5%;
+  float: left;
+  display: block;
+  width: 100%;
+}
+.item-box .left-box{
+  float: left;
+}
+.item-box .right-box{
+  float: left;
+  padding: 0 3%;
+}
+.lockho{
+  display: block;
+  width: 100%;
+  float: left;
+  margin: 15px 0;
+}
+.lockho input{
+  float: left;
+  width: 60%;
+}
+.lockho form{
+  float: right;
+}
+.lockho form select{
+  margin-right: 10px;
+  width: 150px;
+}
+.lockho form button i{
+  font-size: 20px;
+}
+.chonngay form{
+  float: right;
+}
+.chonchucnang button{
+  padding: 5px 10px;
+  background: #ced4da;
+}
+.chonchucnang .input-group-prepend{
+  border: 1px solid #ced4da;
+  border-radius: .25em;
+}
+.chonchucnang button:last-child{
+  border-left: 1px solid #95a5a6;
+}
